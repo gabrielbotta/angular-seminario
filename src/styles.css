@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #222;
+  background: #fff;
+}
+
+h2 {
+  margin-top: 0;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+}
+
+section {
+  border: 1px solid #ddd;
+  padding: 14px;
+  margin-bottom: 14px;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+button {
+  padding: 5px 10px;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+input {
+  padding: 5px 8px;
+  margin-right: 6px;
+}
+
+ul {
+  padding-left: 18px;
+}
+
+li {
+  margin-bottom: 6px;
+}

@@ -1,0 +1,12 @@
+<header class="topo">
+  <h1>{{ titulo }}</h1>
+  <nav>
+    @for (rota of rotas; track rota.path) {
+      <a [routerLink]="rota.path" routerLinkActive="ativo">{{ rota.nome }}</a>
+    }
+  </nav>
+</header>
+
+<main class="container">
+  <router-outlet></router-outlet>
+</main>
